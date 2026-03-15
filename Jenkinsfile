@@ -98,7 +98,7 @@ pipeline {
             //deleteDir()
         }
         failure { 
-            echo 'I will run when pipeline is failed'
+            echo 'I will run when pipeline  is failed'
         }
         success { 
             echo 'I will run when pipeline is success'
